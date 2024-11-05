@@ -1,0 +1,65 @@
+/* Apply styles directly to the body */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: rgb(6, 5, 5);
+    overflow: hidden;
+    background: url(bg\ chibi.jpeg) no-repeat fixed;
+    background-size: cover;
+}
+
+.table-container {
+    padding: 20px;
+    background-color: rgb(160, 227, 187); /* Semi-transparent darkorchid background */
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px  rgb(160, 227, 187); /* Slight shadow for depth */
+    width: 85%;
+    max-width: 800px;
+    border: 2px dashed #83d5c7;
+    opacity: 0.8;
+}
+
+/*Styling the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    background: transparent;
+}
+
+th,td {
+    padding: 12px;
+    border: 1px solid #a8cfeb;
+}
+/* Header styling */
+th[colspan=10] {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #210275;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* Break row styling */
+.break {
+    background-color: #eee;
+    color: #b1a28f;
+    font-weight: bold;
+}
+
+/* Alternate row colors */
+tr:nth-child(even) {
+    background-color: rgb(177, 162, 143); /* Subtle stripe effect */
+}
+
+th:hover {
+    background-color: #3939c9;
+}
+
+td:hover {
+    background-color:#3939c9;
+}
